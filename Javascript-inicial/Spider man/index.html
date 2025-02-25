@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Aranha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            height: auto;
+        }
+        .carousel{
+            width: 800%;
+            height: 600px;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        }
+        
+      
+    </style>
+
+    <section id="banner">
+        <h1>Bem-vindo à Casa da Aranha</h1>
+        <p>Explorando as teias da vida digital.</p>
+    </section>
+
+    <section id="slider">
+        <div class="slide">
+            <img src="./imagens/spiderman-1.jpg" alt="Imagem 1">
+        </div>
+    </section>
+
+    <section id="whatsapp">
+        <div class="Origem humilde:">
+            <h2>Origem humilde:</h2>
+            <p>Peter Parker era um jovem estudante do ensino médio que se tornou um super-herói após ser mordido por uma aranha radioativa.</p>
+        </div>
+        <div class="Web-slingers feitos em casa:">
+            <h2>Lançadores de teias:</h2>
+            <p>Ao contrário de muitas versões cinematográficas que mostram o Homem-Aranha com a capacidade natural de lançar teias, nos quadrinhos originais.</p>
+        </div>
+        <div class="Parceria com o Quarteto Fantástico:">
+            <h2>Parceria com o Quarteto Fantástico:</h2>
+            <p>No início de sua carreira, o Homem-Aranha tentou se juntar ao Quarteto Fantástico para ganhar um pouco de dinheiro e melhorar sua vida financeira.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Casa da Aranha. Todos os direitos
+        </section>
+        <footer>
+            <a target="_blank" href="https://www.instagram.com/"><img width="30px" height="auto" src="15713420.png" alt="Instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/login"><img width="30px" height="auto" src="733547.png" alt="Facebook"></a>
+            <a target="_blank" href="https://x.com/"><img width="30px" height="auto" src="3256013.png" alt="X"></a>
+            <a target="_blank" href="https://br.linkedin.com/"><img width="30px" height="auto" src="3536505.png" alt="Linkedin"></a>
+            <a target="_blank" href="https://github.com/"><img width="30px" height="auto" src="./imagens/github.png" alt="github"></a>
+        </footer>
+    </main>
+
+    <script>
+        function enviar(){
+            document.getElementById("nome").style.border = "1px solid black"
+                document.getElementById("assunto").style.border = "1px solid black"
+            const nome = document.getElementById("nome").value
+            const assunto = document.getElementById("assunto").value
+           
+            if(!nome || !assunto){
+                document.getElementById("nome").style.border = "2px solid red"
+                document.getElementById("assunto").style.border = "2px solid red"
+                return
+            }
+
+            const mensagem = `Gostaria de entrar em contato!!! \n\nNome: ${nome} \nAssunto: ${assunto}`
+            const msg = encodeURIComponent(mensagem)
+            window.location.href = `https://wa.me/554195901303?text=${msg}`
+        }
+    </script>
