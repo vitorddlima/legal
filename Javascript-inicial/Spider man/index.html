@@ -1,102 +1,332 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Aranha</title>
+    <title>Apresentação</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img-logo" src="./imagens/homem-aranha (1).png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#s1">Inicio</a>
+                    <a class="nav-link" href="#s2">Ídolos</a>
+                    <a class="nav-link" href="#s3">Jogos Inesquecíveis</a>
+                    <a class="nav-link" href="#s4">Principais Títulos Do Barcelona</a>
+                    <!-- Novo item no menu -->
+                    <a class="nav-link" href="#footer">Redes Sociais</a>
+                </div>
+            </div>
+        </div>
     </nav>
-    <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            height: auto;
-        }
-        .carousel{
-            width: 800%;
-            height: 600px;
-            box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-        }
-        
-      
-    </style>
-
-    <section id="banner">
-        <h1>Bem-vindo à Casa da Aranha</h1>
-        <p>Explorando as teias da vida digital.</p>
-    </section>
-
-    <section id="slider">
-        <div class="slide">
-            <img src="./imagens/spiderman-1.jpg" alt="Imagem 1">
-        </div>
-    </section>
-
-    <section id="whatsapp">
-        <div class="Origem humilde:">
-            <h2>Origem humilde:</h2>
-            <p>Peter Parker era um jovem estudante do ensino médio que se tornou um super-herói após ser mordido por uma aranha radioativa.</p>
-        </div>
-        <div class="Web-slingers feitos em casa:">
-            <h2>Lançadores de teias:</h2>
-            <p>Ao contrário de muitas versões cinematográficas que mostram o Homem-Aranha com a capacidade natural de lançar teias, nos quadrinhos originais.</p>
-        </div>
-        <div class="Parceria com o Quarteto Fantástico:">
-            <h2>Parceria com o Quarteto Fantástico:</h2>
-            <p>No início de sua carreira, o Homem-Aranha tentou se juntar ao Quarteto Fantástico para ganhar um pouco de dinheiro e melhorar sua vida financeira.</p>
-        </div>
-    </section>
-
-    <section id="contato">
-        <h2>Fale Conosco</h2>
-        <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Casa da Aranha. Todos os direitos
+    <main>
+        <section id="s1">
+            <div class="s1-left">
+                <div class="wrap-img">
+                    <img class="img-s1" src="./imagens/spider12-removebg-preview.png" alt="Profile">
+                </div>
+            </div>
+            <div class="s1-right">
+                <h2 class="title-name animate__animated animate__fadeInDown">SPIDER-MAN</h2>
+                <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                    O Homem-Aranha é um super-herói criado por Stan Lee e Steve Ditko, da Marvel. Seu nome verdadeiro é Peter Parker,
+                     um jovem que ganha habilidades especiais após ser mordido por uma aranha
+                      radioativa. Ele tem a capacidade de escalar paredes, uma força sobre-humana 
+                      e o famoso "sentido aranha" que o avisa de perigos. Além disso, ele usa um 
+                      traje vermelho e azul com uma teia de aranha desenhada e usa teias para se balançar entre os prédios.
+                </p>
+            </div>
         </section>
-        <footer>
-            <a target="_blank" href="https://www.instagram.com/"><img width="30px" height="auto" src="15713420.png" alt="Instagram"></a>
-            <a target="_blank" href="https://www.facebook.com/login"><img width="30px" height="auto" src="733547.png" alt="Facebook"></a>
-            <a target="_blank" href="https://x.com/"><img width="30px" height="auto" src="3256013.png" alt="X"></a>
-            <a target="_blank" href="https://br.linkedin.com/"><img width="30px" height="auto" src="3536505.png" alt="Linkedin"></a>
-            <a target="_blank" href="https://github.com/"><img width="30px" height="auto" src="./imagens/github.png" alt="github"></a>
+        <section id="s2">
+            <h2>MAIORES VILOES</h2>
+            <div class="cards-ídolos">
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/messi.jpeg" alt="Lionel Messi" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>Doutor Octopus</h3> 
+                        
+                        <p>Originalmente um cientista brilhante, sua maior invenção, um conjunto de tentáculos metálicos, fundiu-se ao seu corpo por um acidente que causou sua loucura. Octopus significa polvo em inglês.
+                        </p>
+                    </div>
+                </div>
+       
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/download.jpeg" alt="Johan Cruyff" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>Duende Verde
+                        </h3>
+                        <p>O primeiro Duende Verde, Norman Osborn, é o CEO da Oscorp e tem poderes derivados de uma "fórmula Duende" que aumenta a agilidade, resistência, força e reflexos a níveis sobre-humanos. A fórmula também avança a inteligência enquanto causa insanidade como efeito colateral. Ele usa um arsenal de armas como bombas de abóbora e um planador pessoal. A versão de Norman do Duende Verde é geralmente considerada o arqui-inimigo do Homem-Aranha. O segundo Duende, Harry Osborn, é filho de Norman e melhor amigo de Peter Parker. Ele tem os mesmos poderes de seu pai.
+                        </p>
+                    </div>
+                </div>
+       
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/xavi.jpeg" alt="Xavi Hernández" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>Venom</h3>
+                        <p>Eddie Brock é um ex-fotógrafo de jornal que passou a desprezar o Homem-Aranha e se tornou Venom após se fundir com o simbionte que uma vez havia se fundido com o Homem-Aranha (lhe dando um uniforme negro). Como Venom, ele tem os mesmos poderes do Homem-Aranha e visa arruinar sua vida de qualquer maneira que puder.
+
+                        </p>
+                    </div>
+                </div>
+       
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/iniesta.jpeg" alt="Andrés Iniesta" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>Rei do Crime
+                        </h3>
+                        <p>Retratado como senhor do crime da cidade de Nova York. Manipula os capangas para cumprir suas ordens.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s3">
+            <h2> Os Melhores Desenhos Do Spider Man</h2> <!-- Título atualizado -->
+            <div class="wrap-acc">
+                <!-- Jogo 1: Barcelona 5-0 Real Madrid (2010) -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <H2>O Espetacular Homem-Aranha (2008-2009)
+                        </button>
+                    
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            A série apresenta uma abordagem mais moderna e dinâmica do herói, com animação de alta qualidade e roteiros envolventes. 
+                            <br>
+                            <a target="_blank" href="https://youtu.be/JNA6pzYpwH0?si=Sk9YWj9hIRTta9nW">link</a>
+                        </div>
+                    </div>
+                </div>
+       
+                <!-- Jogo 2: Barcelona 3-1 Manchester United (Final da Champions League 2011) -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Spider-Verse (2018)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            O filme de animação "Spider-Man: Into the Spider-Verse" é amplamente aclamado por sua animação inovadora e estilo visual único. Ele apresentou personagens como Miles Morales e explorou múltiplas versões do Homem-Aranha, criando uma obra-prima visual e narrativa.
+
+                            <br>
+                            <a target="_blank" href="https://youtu.be/zzH4rV08TLI?si=X8xLxoW-o0xtbNdn">link</a>
+                        </div>
+                    </div>
+                </div>
+       
+                <!-- Jogo 3: Barcelona 6-1 PSG (2017 - Remontada Histórica) -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Ultimate Spider-Man (2012-2017)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Esta série tem um tom mais leve e humorado, sendo direcionada a um público mais jovem. Com uma mistura de ação e comédia, ela apresenta Peter Parker como um herói adolescente que, ao lado de outros heróis da Marvel, enfrenta diversos vilões.
+
+                            <br>
+                            <a target="_blank" href="https://youtu.be/_879X68fBL4?si=7ekpP1xIzd8HVOz5">link</a>
+                        </div>
+                    </div>
+                </div>
+       
+                <!-- Jogo 4: Barcelona 5-0 Real Madrid (1974) -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Spider-Man (1967-1970)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            O desenho original do Homem-Aranha é um clássico da animação e marcou toda uma geração. Apesar de ser simples em termos de animação, tem um valor nostálgico imenso e introduziu muitas pessoas ao herói aracnídeo.
+
+                            <br>
+                            <a target="_blank" href="https://youtu.be/xsx3JCw62WQ?si=RXaxjmfFqKexE5Mu">link</a>
+                        </div>
+                    </div>
+                </div>
+       
+                <!-- Jogo 5: Barcelona 3-0 Bayern de Munique (2015 - Champions League) -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Spider-Man 2099 (2015-2016)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Embora menos conhecido, o desenho de Spider-Man 2099 apresenta Miguel O'Hara, o Homem-Aranha do futuro. Ele traz uma visão futurista e uma estética mais moderna, com temas que exploram a distopia e a ciência de forma interessante.
+
+                            <br>
+                            <a target="_blank" href="https://youtu.be/borMWF5DKzI?si=4riJvTJEX-ndsEQP">link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s4">
+            <h2>Principais protagonistas </h2> <!-- Título atualizado -->
+            <div class="cards-titulos">
+                <!-- Card 1: Champions League -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/champions-removebg-preview.png" alt="Champions League" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>1. Peter Parker (Homem-Aranha)
+                        </h3>
+                        <p>O protagonista e herói da história. Peter Parker é um jovem cientista que, após ser picado por uma aranha radioativa, ganha poderes como força sobre-humana, agilidade e a habilidade de escalar paredes. Como Homem-Aranha, ele luta contra o crime, enquanto tenta equilibrar sua vida pessoal com suas responsabilidades de super-herói.
+                        </p>
+                    </div>
+                </div>
+       
+                <!-- Card 2: La Liga -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/la_liga-removebg-preview.png" alt="La Liga" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>2. Mary Jane Watson
+                        </h3>
+                        <p>Uma das personagens mais importantes da vida de Peter Parker, Mary Jane é sua namorada (e, eventualmente, esposa nos quadrinhos). Ela é uma atriz e modelo, conhecida por sua personalidade vibrante e como um apoio emocional constante para Peter, especialmente durante momentos difíceis.
+                        </p>
+                    </div>
+                </div>
+       
+                <!-- Card 3: Copa del Rey -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/copa_del_rey-removebg-preview.png" alt="Copa del Rey" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>3. Tia May
+                        </h3>
+                        <p>Tia May é a tia de Peter e sua figura materna. Ela é uma das figuras mais importantes em sua vida, oferecendo suporte emocional e moral. Em várias histórias, Tia May representa o anjo da guarda de Peter, ajudando-o a manter sua humanidade e equilíbrio.
+                        </p>
+                    </div>
+                </div>
+       
+                <!-- Card 4: Mundial de Clubes -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/mundial-removebg-preview.png" alt="Mundial de Clubes" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>4. J. Jonah Jameson
+                        </h3>
+                        <p>O chefe de Peter Parker no "Daily Bugle", Jameson é um dos antagonistas mais conhecidos no universo do Homem-Aranha. Ele tem uma antipatia profunda por Homem-Aranha, frequentemente publicando artigos difamatórios contra o herói, embora no fundo seja uma figura complexa que esconde seu próprio motivo.
+                        </p>
+                    </div>
+                </div>
+       
+                <!-- Card 5: Supercopa da Espanha -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/gettyimages-1456619569-612x612-removebg-preview.png" alt="Supercopa da Espanha" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>5. Dr. Octopus (Otto Octavius)
+                        </h3>
+                        <p>Um dos maiores vilões do Homem-Aranha, o Dr. Octopus é um cientista brilhante que se transforma em um inimigo formidável quando seus tentáculos mecânicos, resultado de um experimento que deu errado, lhe concedem habilidades sobre-humanas. Sua inteligência e poderes fazem dele um dos arqui-inimigos do herói.
+                        </p>
+                    </div>
+                </div>
+       
+                <!-- Card 6: Supercopa da UEFA -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/uefa-removebg-preview.png" alt="Supercopa da UEFA" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>6. Gwen Stacy
+                        </h3>
+                        <p>Gwen Stacy foi o primeiro grande amor de Peter Parker e uma das figuras mais trágicas de sua vida. Ela é uma jovem inteligente e carinhosa, mas seu destino trágico (em várias versões das histórias) a tornou uma das personagens mais icônicas. Em algumas versões alternativas, como no universo de Spider-Verse, Gwen também se torna uma versão do Homem-Aranha, conhecida como Spider-Woman ou Spider-Gwen, onde ela tem seus próprios poderes e responsabilidades heroicas.
+                        </p>
+                    </div>
+                </div>
+       
+                <!-- Card 7: Copa das Cidades com Feiras -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/feiras-removebg-preview.png" alt="Copa das Cidades com Feiras" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>7. Harry Osborn</h3>
+                        <p>Melhor amigo de Peter Parker e filho de Norman Osborn, Harry Osborn tem uma relação muito próxima com Peter. Ao longo das histórias, Harry passa por altos e baixos, com momentos de amizade e conflito, especialmente quando seu pai, Norman, se torna o Green Goblin. Apesar de ser afetado pela influência de seu pai, Harry não é um vilão, mas sim um personagem complexo que lida com seu próprio arco de redenção e identidade.
+                            Esses dois personagens são essenciais para a história de Peter Parker, tanto como amigos como aliados, ajudando a explorar os aspectos mais humanos e emocionais do herói!
+                            </p>
+                    </div>
+                </div>
+       
+                <!-- Card 8: Copa Latina -->
+                <div class="cartao">
+                    <div class="wrap-img-card">
+                        <img src="./imagens/latina-removebg-preview.png" alt="Copa Latina" width="80px" height="auto">
+                    </div>
+                    <div class="wrap-info-card">
+                        <h3>8. Miles Morales (Homem-Aranha)
+                        </h3>
+                        <p>Introduzido no universo do Ultimate Spider-Man, Miles Morales é um jovem que também ganha poderes após ser picado por uma aranha geneticamente modificada. Ele se torna o Homem-Aranha em um universo alternativo e, com o tempo, passa a fazer parte do multiverso, ganhando popularidade como uma versão mais jovem e diversificada do herói.
+                            Esses personagens, seja como aliados ou vilões, são centrais para as tramas que definem o universo do Homem-Aranha, contribuindo para as suas histórias emocionantes e cheias de ação!
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <h2>Redes Sociais Do Barcelona</h2> <!-- Título adicionado -->
+            <div class="social-icons">
+                <a target="_blank" href="https://www.instagram.com/fcbarcelona?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <img width="30px" height="auto" src="./imagens/instagram.png" alt="Instagram">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A">
+                    <img width="30px" height="auto" src="./imagens/youtube.png" alt="Youtube">
+                </a>
+                <a target="_blank" href="https://x.com/fcbarcelona_br">
+                    <img width="30px" height="auto" src="./imagens/twitter.png" alt="X">
+                </a>
+                <a target="_blank" href="https://www.tiktok.com/@fcbarcelona">
+                    <img width="30px" height="auto" src="./imagens/tiktok.png" alt="Tik Tok">
+                </a>
+            </div>
         </footer>
     </main>
 
-    <script>
-        function enviar(){
-            document.getElementById("nome").style.border = "1px solid black"
-                document.getElementById("assunto").style.border = "1px solid black"
-            const nome = document.getElementById("nome").value
-            const assunto = document.getElementById("assunto").value
-           
-            if(!nome || !assunto){
-                document.getElementById("nome").style.border = "2px solid red"
-                document.getElementById("assunto").style.border = "2px solid red"
-                return
-            }
 
-            const mensagem = `Gostaria de entrar em contato!!! \n\nNome: ${nome} \nAssunto: ${assunto}`
-            const msg = encodeURIComponent(mensagem)
-            window.location.href = `https://wa.me/554195901303?text=${msg}`
-        }
-    </script>
+   
+</body>
+
+
+</html>
