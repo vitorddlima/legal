@@ -14,3 +14,29 @@ Críticas a Elon Musk: Akita critica o comportamento de Elon Musk e sua influên
  Manipulação pelos Gigantes da Tecnologia: Akita comenta sobre como grandes empresas de tecnologia manipulam desenvolvedores criando suas próprias linguagens e ferramentas para mantê-los em seus ecossistemas.
   Reflexão sobre a Programação: O vídeo conclui com uma reflexão crítica sobre o estado atual da programação e a importância de ter uma visão crítica das tendências e práticas da indústria.
 
+
+
+Resumo
+
+programação ainda é a profissão do futuro
+
+Allison Vinicius
+
+-”programação em 1 semana”: O vídeo aborda a relevância da programação no futuro,
+questionando se ainda é uma profissão promissora. Reflete sobre o desapontamento dos
+profissionais com a área e desmistifica a segurança e altos salários frequentemente
+associados à carreira. Também critica a saturação do mercado de cursos online,
+destacando que muitos prometem empregos mas não entregam. Em contraste, exalta o
+valor dos cursos presenciais, devido à experiência prática e imersão, trazendo exemplos
+pessoais de aprendizado.
+-Elon Musk: A polêmica sobre o cancelamento do Flow e a figura de Elon Musk são temas
+discutidos, com críticas à influência de Musk sobre o trabalho remoto e sua dependência de
+subsídios governamentais. O vídeo reflete ainda sobre a evolução da programação,
+comparando o cenário antes e depois da popularização do Google, destacando as
+dificuldades passadas.
+-Experiência falsa: Há uma análise das dificuldades de aprender programação sem um
+ambiente estruturado e o impacto negativo dos coaches sem prática real no mercado. O
+autor enfatiza a necessidade de aprendizado genuíno e a importância de entender a
+realidade do mercado de trabalho. Ele também critica a dependência moderna de serviços
+externos e tecnologias, levantando questões sobre a autonomia dos programadores e a
+manipulação por grandes empresas.
